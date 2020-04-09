@@ -4,13 +4,11 @@ import ProjectList from '../projects/ProjectList';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { firestoreConnect } from 'react-redux-firebase';
-import { Redirect } from 'react-router-dom';
 
 class Dashboard extends React.Component {
     render() {
         //console.log(this.props);
-        const { projects, auth, notifications } = this.props;
-        if (!auth.uid) return <Redirect to='/signin' />
+        const { projects, notifications } = this.props;
         return (
             <div className="dashboard container">
                 <div className="row">
