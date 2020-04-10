@@ -7,7 +7,7 @@ const Notifications = (props) => {
         <div className="section">
             <div className="card z-depth-5">
                 <div className="card-content">
-                    <span className="card-title">Activity</span>
+                    <span className="card-title code">Activity</span>
                     <ul className="notifications">
                         {notifications && notifications.map(item => {
                             return (

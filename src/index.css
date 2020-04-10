@@ -1,6 +1,7 @@
 html {
   min-height: 100%;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -24,10 +25,10 @@ body::-webkit-scrollbar {
   -ms-overflow-style: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.code {
+  font-family: 'Fira Code', monospace;
 }
+
 form {
   padding: 20px;
   margin-top: 60px;
@@ -40,4 +41,8 @@ form button, form h5 {
 main {
   min-height: 88.2vh;
   flex: 1 0 auto;
+}
+
+.rashil2000 {
+  font-size: larger;
 }
