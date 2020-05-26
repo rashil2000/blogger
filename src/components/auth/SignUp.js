@@ -21,7 +21,8 @@ class SignUp extends React.Component {
     }
     render() {
         const {auth, authError} = this.props;
-        if (auth.uid) return <Redirect to='/' />; 
+        if (auth.uid) return <Redirect to='/' />;
+        document.title = `Sign Up - Blogger`;
         return (
             <div className="container z-depth-5">
                 <form onSubmit={this.handleSubmit} autoComplete="off" className="white">

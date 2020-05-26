@@ -20,6 +20,7 @@ class SignIn extends React.Component {
     render() {
         const {authError, auth} = this.props;
         if (auth.uid) return <Redirect to='/' />;
+        document.title = `Sign In - Blogger`;
         return (
             <div className="container z-depth-5">
                 <form onSubmit={this.handleSubmit} className="white">

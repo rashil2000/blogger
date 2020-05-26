@@ -7,6 +7,7 @@ import moment from 'moment';
 const ProjectDetails = (props) => {
     const { project } = props;
     if (project) {
+        document.title = `${project.title} - Blogger`;
         return (
             <div className="container section project-details">
                 <div className="card">

@@ -9,6 +9,7 @@ class Dashboard extends React.Component {
     render() {
         //console.log(this.props);
         const { projects, notifications } = this.props;
+        document.title = `rashil2000 - Blogger`;
         return (
             <div className="dashboard container">
                 <div className="row">

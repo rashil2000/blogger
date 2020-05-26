@@ -33,6 +33,7 @@ class CreateProject extends React.Component {
     render() {
         const { auth } = this.props;
         if (!auth.uid) return <Redirect to='/signin' />
+        document.title = `New Blog - Blogger`;
         return (
             <div className="container">
                 <form onSubmit={this.handleSubmit} className="white">
