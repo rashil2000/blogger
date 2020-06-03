@@ -26,3 +26,5 @@ yarn-error.log*
 
 **/firebase-debug.log*
 /.firebase
+
+*.ps1
