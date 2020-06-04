@@ -1,7 +1,7 @@
 # Blogger
 
 <p align="center">
-  <img src="/public/logo192.png"></img>
+  <img src="https://github.com/rashil2000/blogger/raw/master/public/logo192.png"></img>
 </p>
 
 <hr>
