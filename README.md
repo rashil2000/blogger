@@ -1,3 +1,9 @@
+# Blogger
+
+<p align="center">
+  <img src="/public/logo192.png"></img>
+</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm install`
