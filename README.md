@@ -6,12 +6,12 @@
 
 <hr>
 
+## Available Scripts
+
 ### `npm install`
 
 You need Node.js to install the scripts and run this app.<br />
 Go to [nodejs.org](https://nodejs.org/en/download/) to install it.
-
-## Available Scripts
 
 In the project directory, you can run:
 
