@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { firestoreConnect } from 'react-redux-firebase';
 import { compose } from 'redux';
 import moment from 'moment';
+const ReactMarkdown = require('react-markdown');
 
 const ProjectDetails = (props) => {
     const { project } = props;
@@ -12,11 +13,12 @@ const ProjectDetails = (props) => {
             <div className="container section project-details">
                 <div className="card">
                     <div className="card-content">
-                        <span className="card-title">{project.title}</span>
-                        <br/>
-                        <p style={{whiteSpace: "pre-line", textAlign: "justify"}}>
-                            {project.content}
-                        </p>
+                        <span style={{ whiteSpace: "pre-line" }}>
+                            <ReactMarkdown source={'## ' + project.title} />
+                        </span>
+                        <span style={{ whiteSpace: "pre-line", textAlign: "justify" }}>
+                            <ReactMarkdown source={project.content} />
+                        </span>
                     </div>
                     <div className="card-action grey lighten-4 grey-text">
                         <div>Posted by {project.authorFirstName} {project.authorLastName}
